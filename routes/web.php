@@ -3,7 +3,15 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminLoginController;
 use App\Http\Controllers\AdminController;
+
 use Illuminate\Http\Request;
+
+
+
+
+
+
+
 
 
 use App\Http\Controllers\CategoryController;
@@ -41,6 +49,7 @@ Route::get('/lang/{locale}',function($locale,Request $request){
     //     abort(404);
     // }
     // session()->put('locale',$locale);
+    // demodemode
     $request->session()->put('locale',$locale);
     return redirect()->back();
 })->name('change.languge');
