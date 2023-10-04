@@ -30,7 +30,6 @@ class BrandController extends Controller
     }
 
     public function store(Request $request){
-        $products = Product::with('product_image','category')->orderBy('updated_at','DESC')->get();
         $request->validate([
             'name'  => 'required'
         ],[
@@ -42,7 +41,6 @@ class BrandController extends Controller
         $brand->status = isset($request->status) ? 1 : 0;
         $brand->created_at = Carbon::now();
         $brand->updated_at = Carbon::now();
-        
         $brand->save();
         return redirect()->route('brand.index');
     }

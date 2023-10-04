@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="title_left">
-        <h3>Danh sách thương hiệu(Blog)</h3>
+        <h3>Danh sách thương hiệu</h3>
     </div>
     <div class="col-md-12 col-sm-12  ">
         <div class="x_panel">
