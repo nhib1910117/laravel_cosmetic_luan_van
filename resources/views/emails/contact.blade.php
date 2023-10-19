@@ -36,7 +36,7 @@
                                                             <tbody>
                                                                 <tr style="margin:0;padding:0">
                                                                     <td style="margin:0;padding:0 0 24px;border-bottom:2px solid #b49763">
-                                                                        <a href="{{route('home.index')}}">SHOP NÔNG SẢN SẠCH</a> 
+                                                                        <a href="{{route('home.index')}}">MỸ PHẨM CHÍNH HÃNG BEAUTYGARDEN</a> 
                                                                     </td>
                                                                 </tr>
                                                                 <tr style="margin:0;padding:0">

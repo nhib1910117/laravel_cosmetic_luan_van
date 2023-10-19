@@ -26,7 +26,7 @@
                 
                 <form action="{{isset($brand_edit) ? route('brand.update',$brand_edit->id) : route('brand.store')}}"  method="POST" class="form-label-left input_mask" enctype="multipart/form-data">
                     <div class="col-md-12 col-sm-12  form-group">
-                        <input type="text" class="form-control" value="{{isset($brand_edit) ? $brand_edit->name : ''}}" name="name" id="inputSuccess2" placeholder="Tên thương hiệu (Blog)">
+                        <input type="text" class="form-control" value="{{isset($brand_edit) ? $brand_edit->name : ''}}" name="name" id="inputSuccess2" placeholder="Tên thương hiệu ">
                         @if($errors->has('name'))
                             <span class="text-danger">{{$errors->first('name')}}</span>
                         @endif

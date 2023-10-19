@@ -93,7 +93,7 @@ return [
 
     'from' => [
         'address' => 'Beautygarden@gmail.com',
-        'name' => 'Nông sản sạch 3SachFood',
+        'name' => 'Mỹ Phẩm Chính Hãng Beauty Garden',
     ],
 
     /*
