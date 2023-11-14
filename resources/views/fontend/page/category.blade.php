@@ -146,7 +146,7 @@
                     {{$products->links('vendor.pagination.custom')}}
                     <div class="product__discount mt-5">
                         <div class="section-title product__discount__title">
-                            <h2>Sale Off</h2>
+                            <h2>Giảm Giá</h2>
                         </div>
                         <div class="row">
                             <div class="product__discount__slider owl-carousel">
